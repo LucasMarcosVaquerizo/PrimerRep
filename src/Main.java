@@ -12,13 +12,16 @@ public class Main {
 
         String resultado="";
         String concatenar="HolaBuenas";
-        while (tiempo){
+        int tiempo = 1;
+        while (tiempo==8){
             resultado = resultado+concatenar;
+            tiempo ++;
         }
 
         StringBuilder resultadosb=new StringBuilder();
-        while(tiempo){
+        while(tiempo==3){
             resultadosb.append(concatenar);
+            tiempo ++;
         }
 
     }
