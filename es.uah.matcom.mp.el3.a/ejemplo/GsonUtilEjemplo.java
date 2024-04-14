@@ -26,7 +26,7 @@ public class GsonUtilEjemplo {
     }
     public static void main(String[] args) {
         // Crear una instancia del objeto Usuario
-        Usuario usuario = new Usuario("Juan", 30, "juan@example.com");
+        Usuario usuario = new Usuario("Pedro", 30, "juan@example.com");
         // Ruta del archivo donde se guardará el objeto
         String rutaArchivo = "usuario.json";
         // Guardar el objeto Usuario en un archivo JSON
